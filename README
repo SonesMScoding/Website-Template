@@ -1,4 +1,4 @@
-This repository is an example pf a website project template, with ideal structure and code formatting. 
+ This repository is an example pf a website project template, with ideal structure and code formatting. 
 
 The CSS folder keeps our styles for the webpages. You can link multiple CSS files to one html file. I like to use normalize to ensure browsers are on the same playing field before my CSS stylin loads. It is also not a bad thing to have a base style for multi page sites, but using a css file for multiple sites and then making seperate stylesheets for each page is redundant when certain backend development tools allow devs to practice templating. For that reason, the styling will not be seperated. There will be a file for major styling and normalize.css from github.com/necolas/normalize.css
 
@@ -6,3 +6,6 @@ The static folder is for non-code assets but has useful functions in the future 
 https://github.com/electron-userland/electron-webpack/issues/259#issuecomment-490535057
 
 
+A Script folder is usually where any Javascript programs would live for a simple template (subject to change)
+
+This is partially one to one with the template made in MCA with Margarito. 

@@ -1,0 +1,233 @@
+body {
+    background-color: #f5f3f2;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #766363;
+}
+
+.topBar a {
+    text-decoration: none;
+    color: #e5d7eb;
+}
+
+.rightText ul{
+    list-style: none;
+}
+
+.rightText li {
+    display: inline;
+
+}
+
+.logoRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 39%;
+}
+
+nav button {
+    background-color: #863333;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px 3%;
+    margin: 0 10px;
+}
+
+.logo {
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+/* MAIN STYLING */
+
+.heroImage img {
+    width: 100%;
+}
+
+.carouselButtons {
+    display: flex;
+    justify-content: center;
+}
+
+.selection {
+    background-color: #a9a9a9;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.selection:hover {
+    background-color: #d98f28;
+}
+
+.blogRow {
+    display: flex;
+}
+
+.oneItem {
+    border-top: 2px solid #a9a9a9;
+    padding: 2%;
+}
+
+.twoItem {
+    border-top: 2px solid #a9a9a9;
+    border-left: 2px solid #a9a9a9;;
+    border-right: 2px solid #a9a9a9;;
+    padding: 2%;
+}
+
+.threeItem {
+    border-top: 2px solid #a9a9a9;
+    padding: 2%;
+}
+
+.blogTitle {
+    color: #0e1e31;
+    font-size: xxx-large;
+}
+
+.blogImg {
+    width: 60%;
+}
+
+.blogParagraph {
+    color: #a9a9a9;
+}
+
+.blogButton {
+    background-color: #863333;
+    color: #ffffff;
+    border-radius: 10%;
+    padding: 10px 2%;
+    /* margin: 0 10px; */
+}
+
+.NewsSection {
+    display: flex;
+    background: rgb(75, 24, 24);
+    background: linear-gradient(171deg, rgb(63, 28, 28) 20%, rgb(33, 15, 15) 77%);
+    padding: 2%;
+}
+
+.NewsSection h2 {
+    color: #ffffff;
+    font-size: xx-large;
+} 
+
+.servicesItem ul {
+    list-style-image: url('');
+}
+
+.servicesItem li {
+    color: #a9a9a9;
+    margin: 8px 0px;
+}
+
+.eventItem {
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.eventItem h4 {
+    margin: 0;
+    color: #ffffff;
+}
+
+.eventItem p {
+    margin: 0;
+    color: #a9a9a9;
+}
+
+.firstCal {
+    padding: 18px;
+    background-color: #be8542;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 15%;
+}
+
+.secondCal {
+    padding: 18px;
+    background-color: #bc6142;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 15%;
+}
+
+.thirdCal {
+    padding: 18px;
+    background-color: #bd425e;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger;
+    border-radius: 15%;
+}
+
+.servicesItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding-bottom: 3%;
+
+}
+
+.oppItem ul{
+    list-style-image: url('https://mvalenciaiii.github.io/detroix/media/bubble.jpg');
+}
+
+.oppItem h3 {
+    color: #ffffff;
+}
+
+.oppItem p {
+    color: #a9a9a9;
+}
+
+.oppItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    padding-bottom: 3%;
+}
+
+.newsItem {
+    flex: 1;
+    position: relative;
+    padding-bottom: 3%;
+
+}
+
+
+.newsButton button {
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    background-color: #4c0404;
+}
+
+footer p {
+    margin: 0;
+    padding: 2%;
+    color: #ffffff;
+}
